@@ -11,7 +11,7 @@ This project involved configuring a Linux VM as a secure gateway for a Windows V
 ## 📖 Table of Contents
 - [Key Topics Covered](#key-topics-covered)  
 - [Architecture Overview](#architecture-overview)    
-- [Setup and Configuration](#setup and configuration)  
+- [Setup and Configuration](#setup-and-configuration)  
   - [Network Configuration](#0️⃣-network-configuration)  
   - [DNS Configuration](#1️⃣-dns-configuration)  
   - [Routing](#2️⃣-routing)  
@@ -39,6 +39,10 @@ The project created a secure network architecture with the following components:
 - Adapter 2: Internal network interface for communication with the Windows VM
 
 ***Windows VM*** – Connected to the Linux VM through an internal network, using the Linux VM as a gateway
+
+---
+
+### Setup and Configuration
 ### 0️⃣ Environment Setup
 - Configure a static IP address on the Linux VM using Netplan
 - Enable IP forwarding to allow routing between internal and external networks
